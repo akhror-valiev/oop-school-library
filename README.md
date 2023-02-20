@@ -36,14 +36,6 @@
 
 # 📖 [OOP School Library] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** OOP school in Ruby
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features" />
@@ -107,9 +99,8 @@ npm start
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[pending]**
-- [ ] **[pending]**
-- [ ] **[pending]**
+- [ ] **[add testing]**
+- [ ] **[add new classes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
