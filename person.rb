@@ -1,3 +1,5 @@
+require './nameable'
+
 class Person
   attr_accessor :name, :age
   attr_reader :id
@@ -7,10 +9,15 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @nameable = Nameable.new
   end
 
   def can_use_services?
     true if of_age? || @parent_permission
+  end
+
+  def valid_name
+    @name = @nameable.correct_name(@name)
   end
 
   private
@@ -19,3 +26,5 @@ class Person
     true if age >= 18
   end
 end
+person = Person.new(22, 'maximilianus')
+puts person.valid_name
