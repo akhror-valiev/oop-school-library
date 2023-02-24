@@ -74,16 +74,11 @@ https://github.com/akhror-valiev/oop-school-library.git
 Install this project with:
 
 ```
-npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
+Run this command on your terminal to install all the dependencies: `bundle install`.
 
 ```
-npm start
-```
+
+---
 
 ## 👥 Authors <a name="authors" />
 
