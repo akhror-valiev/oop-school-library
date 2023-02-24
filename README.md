@@ -74,16 +74,11 @@ https://github.com/akhror-valiev/oop-school-library.git
 Install this project with:
 
 ```
-npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
+Run this command on your terminal to install all the dependencies: `bundle install`.
 
 ```
-npm start
-```
+
+---
 
 ## 👥 Authors <a name="authors" />
 
@@ -126,6 +121,6 @@ I would like to thank Microverse for idea of the project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
