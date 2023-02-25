@@ -8,12 +8,12 @@ class Main
 
   loop do
     puts "\n"
-    puts '1 - List all books'
-    puts '2 - List all people'
+    puts '1 - List all of the books'
+    puts '2 - List all of the people'
     puts '3 - Create a person'
     puts '4 - Create a book'
     puts '5 - Create a rental'
-    puts '6 - List all rentals for a given person id'
+    puts '6 - List all of the rentals for the given person id'
     puts '7 - Exit'
     puts "\n"
 
@@ -40,4 +40,4 @@ class Main
     end
   end
 end
-Main.new
+Main
