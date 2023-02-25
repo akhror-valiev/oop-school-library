@@ -3,7 +3,6 @@ require './rental'
 require './student'
 require './teacher'
 
-
 class App
   def initialize
     @books = []
@@ -75,7 +74,6 @@ class App
       teacher = Teacher.new(specialization, age, name, parent_permission: true)
       @people.push(teacher)
       puts 'Person created successfully!'
-
     else
       puts 'invalid'
     end
