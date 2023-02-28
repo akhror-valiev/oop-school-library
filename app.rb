@@ -92,6 +92,8 @@ class App
   def create_rental
     if @books.empty?
       puts 'Book list is empty please create a book first'
+    elsif @people.empty?
+      puts 'Books are exist please create person first'
     else
       puts 'Select a book from the following list by number'
       books_list

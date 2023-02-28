@@ -27,7 +27,7 @@ class Person < Nameable
   private
 
   def of_age?
-    true if age >= 18
+    @age >= 18
   end
 
   def rent(date, book)
