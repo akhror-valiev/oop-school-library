@@ -17,7 +17,7 @@ class Person < Nameable
   end
 
   def can_use_services?
-    true if of_age? || @parent_permission
+    of_age? || @parent_permission
   end
 
   def correct_name
@@ -27,7 +27,7 @@ class Person < Nameable
   private
 
   def of_age?
-    true if age >= 18
+    @age >= 18
   end
 
   def rent(date, book)
