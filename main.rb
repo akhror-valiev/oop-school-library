@@ -41,4 +41,5 @@ class Main
     end
   end
 end
-Main.new
+app = Main.new
+app
