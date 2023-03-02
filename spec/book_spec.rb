@@ -1,9 +1,7 @@
 require_relative '../book'
 require_relative '../person'
 
-
 person = Person.new(20, 'Bashir')
-
 describe Book do
   context 'Unit testing for Book class' do
     it 'rent method need to add the current book to the rentals list' do
