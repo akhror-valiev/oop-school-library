@@ -2,8 +2,8 @@ require './student'
 require './classroom'
 require './person'
 
-math = Classroom.new('Math')
-student = Student.new(25, 'John', true)
+math = Classroom.new('math')
+student = Student.new(24, 'John', true)
 
 describe Student do
   context 'Testing for Student class' do
