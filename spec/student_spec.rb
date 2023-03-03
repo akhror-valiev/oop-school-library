@@ -2,10 +2,10 @@ require './student'
 require './classroom'
 
 math = ClassRoom.new('Math')
-student = Student.new(24, 'Gulalai', true)
+student = Student.new(25, 'John', true)
 
 describe Student do
-  context 'Unit testing for Student class' do
+  context 'Testing for Student class' do
     it 'the play_hooky should return ¯\(ツ)/¯' do
       expect(student.play_hooky?).to eq '¯\(ツ)/¯'
     end

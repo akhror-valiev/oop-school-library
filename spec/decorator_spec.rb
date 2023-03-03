@@ -1,22 +1,22 @@
-require_relative '../decorator/base_decorator'
+require_relative '../base_decorate'
 require_relative '../person'
-require_relative '../decorator/capitalize_decorator'
-require_relative '../decorator/trimmer_decorator'
+require_relative '../capitalize_decorator'
+require_relative '../trimmer_decorator'
 describe Decorate do
-  context 'Testing the decorator class' do
+  context 'Testing fro the decorator' do
     it 'Should return the name of the person' do
-      person = Person.new(42, 'Riyana')
-      expect(person.correct_name).to eql 'Riyana'
+      person = Person.new(34, 'Merc')
+      expect(person.correct_name).to eql 'Merc'
     end
 
     it 'Should capitalize the name of the person' do
-      person = Person.new(42, 'Riyana')
+      person = Person.new(34, 'Merc')
       capitalize = CapitalizeDecorator.new(person)
-      expect(capitalize.correct_name).to eql 'Riyana'
+      expect(capitalize.correct_name).to eql 'Merc'
     end
 
     it 'Should trim the name of the person to 10 characters' do
-      person = Person.new(42, 'alexzanderomar')
+      person = Person.new(34, 'alexzanderomar')
       trimmer = TrimmerDecorator.new(person)
       expect(trimmer.correct_name).to eql 'alexzander'
     end

@@ -1,11 +1,11 @@
 require './book'
 require './person'
 
-parent = Person.new(50, 'Sample')
-child = Person.new(20, 'Example')
+parent = Person.new(30, 'John')
+child = Person.new(24, 'Doe')
 
 describe Person do
-  context 'Testing Person Class' do
+  context 'Testing for Person class' do
     it 'the age method should return true if  age > 18' do
       expect(child.can_use_services?).to be true
     end
@@ -15,7 +15,7 @@ describe Person do
     end
 
     it 'The correct_name method should return person name' do
-      expect(parent.correct_name).to eq 'Ahmad'
+      expect(parent.correct_name).to eq 'John'
     end
   end
 end
