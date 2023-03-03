@@ -1,7 +1,5 @@
 name: Tests
 
-on: pull_request
-
 jobs:
   rspec:
     name: RSpec
