@@ -1,6 +1,6 @@
 require './nameable'
-require './decorator/capitalize_decorator'
-require './decorator/trimmer_decorator'
+require './capitalize_decorator'
+require './trimmer_decorator'
 require './rental'
 
 class Person < Nameable

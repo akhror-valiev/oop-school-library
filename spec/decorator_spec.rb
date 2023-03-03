@@ -1,7 +1,7 @@
-require_relative '../base_decorate'
-require_relative '../person'
-require_relative '../capitalize_decorator'
-require_relative '../trimmer_decorator'
+require './base_decorate'
+require './person'
+require './capitalize_decorator'
+require './trimmer_decorator'
 describe Decorate do
   context 'Testing fro the decorator' do
     it 'Should return the name of the person' do
